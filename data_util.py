@@ -38,6 +38,24 @@ def aggregate_daily(df, city_name = ""):
     out = out.rename(columns=dict([('city_' + d + 'Count', d) for d in to_names]))   # the suspected column from csv is not reliable
     return out
 
+def aggregate_daily_except(df, province_name = ""):
+    '''Aggregate the frequent time series data into a daily frame, ie, one entry per (date, province, city)'''
+    frm_list = []
+
+    if province_name:
+        df = df[df.provinceName != province_name]
+
+    drop_cols = ['province_' + field for field in ['confirmedCount', 'suspectedCount', 'curedCount', 'deadCount']]  # these can be computed later
+    for key, frm in df.drop(columns=drop_cols).sort_values(['updateDate']).groupby(['cityName', 'updateDate']):
+        frm_list.append(frm.sort_values(['updateTime'])[-1:])    # take the lastest row within (city, date)
+    out = pd.concat(frm_list).sort_values(['updateDate', 'provinceName', 'cityName'])
+    to_names = [field for field in ['confirmed', 'suspected', 'cured', 'dead']]
+    out = out.rename(columns=dict([('city_' + d + 'Count', d) for d in to_names]))   # the suspected column from csv is not reliable
+
+    out = out.groupby('updateDate').agg('sum')
+
+    return out
+
 def calculate_dead_cured_rate(df):
     df_ret = df.copy()
 
