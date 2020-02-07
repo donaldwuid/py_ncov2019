@@ -164,7 +164,7 @@ figure = plot_util.plot_conf_main(city_daily_data, city_name + '累计')
 ```
 
 
-![svg](output_7_0.svg)
+![svg](./Readme/output_7_0.svg)
 
 
 
@@ -293,7 +293,7 @@ figure = plot_util.plot_conf_main(city_daily_data_1st_derivative, city_name + '�
 ```
 
 
-![svg](output_10_0.svg)
+![svg](./Readme/output_10_0.svg)
 
 
 
@@ -422,7 +422,7 @@ figure = plot_util.plot_conf_main(city_daily_data_2nd_derivative, city_name + '�
 ```
 
 
-![svg](output_13_0.svg)
+![svg](./Readme/output_13_0.svg)
 
 
 
@@ -440,7 +440,7 @@ figure = plot_util.plot_conf_dead_cured_ratio(city_daily_data, city_name + '死�
 ```
 
 
-![svg](output_15_0.svg)
+![svg](./Readme/output_15_0.svg)
 
 
 
@@ -487,7 +487,7 @@ figure = plot_util.plot_conf_main(white_daily_data, '全国累计（除' + black
 ```
 
 
-![svg](output_21_0.svg)
+![svg](./Readme/output_21_0.svg)
 
 
 
@@ -601,7 +601,7 @@ figure = plot_util.plot_conf_main(white_daily_data_1st_derivative, '全国增长
 ```
 
 
-![svg](output_24_0.svg)
+![svg](./Readme/output_24_0.svg)
 
 
 
@@ -715,7 +715,7 @@ figure = plot_util.plot_conf_main(white_daily_data_2nd_derivative, '全国增长
 ```
 
 
-![svg](output_27_0.svg)
+![svg](./Readme/output_27_0.svg)
 
 
 
@@ -733,7 +733,7 @@ figure = plot_util.plot_conf_dead_cured_ratio(white_daily_data, '全国增死亡
 ```
 
 
-![svg](output_29_0.svg)
+![svg](./Readme/output_29_0.svg)
 
 
 
