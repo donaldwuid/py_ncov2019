@@ -1,21 +1,41 @@
 import pandas as pd
 import matplotlib.pyplot as plt
-import matplotlib.font_manager as mfm
-font_path = './STFANGSO.TTF'  # for displaying Chinese characters in plots
-font_prop = mfm.FontProperties(fname=font_path)
 
-def tsplot_conf_dead_cured(df, title_prefix, figsize=(13,6), fontsize=18, logy=False):
-    fig = plt.figure()
-    ax1 = fig.add_subplot(211)
+plt.rcParams["font.family"] = 'Songti SC'
+
+def plot_conf(df, fig, subplot_index, title, fields, field_names, style='-*', figsize=(13,6), fontsize=16, logy=False):
+    ax1 = fig.add_subplot(subplot_index)
+    ax1.tick_params(labelright=True)
     plot_df = df.groupby('updateDate').agg('sum')
-    plot_df.plot(y=['confirmed', 'suspected'], style='-*', grid=True, ax=ax1, figsize=figsize, logy=logy)
-
-
-    ax2 = fig.add_subplot(212)
-    plot_df.plot(y=['dead', 'cured'], style=':*', grid=True, ax=ax2, figsize=figsize, sharex=True, logy=logy)
-    title = title_prefix + '确诊、疑似，死亡、治愈人数'
+    lines = plot_df.plot(y=fields, style='-*', grid=True, ax=ax1, figsize=figsize, logy=logy)
+    ax1.legend(field_names)
 
     if logy:
         title += '（指数）'
-    fig.suptitle(title, fontproperties=font_prop, fontsize=fontsize)
+    ax1.set_title(title, fontsize=fontsize, va='baseline')
+
+    # ax1.set_xlabel(xlabel, fontsize=fontsize - 2, va='bottom')
+    
+    return fig
+
+
+def plot_conf_main(df, title, figsize=(13,6), fontsize=18, logy=False):
+    fig = plt.figure()
+
+    fig.subplots_adjust(hspace=0.5)
+
+    plot_conf(df, fig, 211, '确诊、疑似', ['confirmed', 'suspected'], ['确诊', '疑似'], style='-*', logy=logy)
+    plot_conf(df, fig, 212, '死亡、治愈', ['dead', 'cured'], ['死亡', '治愈'], style=':*', logy=logy)
+    
+    fig.suptitle(title, fontsize=fontsize)
+
+    return fig
+
+def plot_conf_dead_cured_ratio(df, title, figsize=(13,6), fontsize=18, logy=False):
+    fig = plt.figure()
+
+    plot_conf(df, fig, 211, '', ['dead_rate', 'cured_rate'], ['死亡率%', '治愈率%'], style=':*', logy=logy)
+    
+    fig.suptitle(title, fontsize=fontsize)
+
     return fig

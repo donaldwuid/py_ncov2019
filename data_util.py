@@ -38,11 +38,22 @@ def aggregate_daily(df, city_name = ""):
     out = out.rename(columns=dict([('city_' + d + 'Count', d) for d in to_names]))   # the suspected column from csv is not reliable
     return out
 
+def calculate_dead_cured_rate(df):
+    df_ret = df.copy()
+
+    df_ret['dead_rate'] = 100.0 * df_ret['dead'] / df_ret['confirmed']
+    df_ret['cured_rate'] = 100.0 * df_ret['cured'] / df_ret['confirmed']
+
+    return df_ret
+
 def diff(df):
-    fields = ['confirmed', 'suspected', 'cured', 'dead']
-    df_nums = df[fields]
+
+    de_ret = df.copy()
+
+    fields = ['confirmed', 'suspected', 'cured', 'dead', 'dead_rate', 'cured_rate']
+    df_nums = de_ret[fields]
     df_nums = df_nums.diff(axis = 0, periods = 1)
     
-    df[fields] = df_nums[fields]
+    de_ret[fields] = df_nums[fields]
 
-    return df
+    return de_ret
