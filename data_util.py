@@ -66,12 +66,12 @@ def calculate_dead_cured_rate(df):
 
 def diff(df):
 
-    de_ret = df.copy()
+    df_ret = df.copy()
 
     fields = ['confirmed', 'suspected', 'cured', 'dead', 'dead_rate', 'cured_rate']
-    df_nums = de_ret[fields]
+    df_nums = df_ret[fields]
     df_nums = df_nums.diff(axis = 0, periods = 1)
     
-    de_ret[fields] = df_nums[fields]
+    df_ret[fields] = df_nums[fields]
 
-    return de_ret
+    return df_ret
