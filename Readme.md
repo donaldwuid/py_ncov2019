@@ -88,20 +88,7 @@ city_daily_data.tail(5)
   </thead>
   <tbody>
     <tr>
-      <td>10718</td>
-      <td>广东省</td>
-      <td>深圳</td>
-      <td>291</td>
-      <td>0</td>
-      <td>16</td>
-      <td>0</td>
-      <td>2020-02-05 21:18:47.516</td>
-      <td>2020-02-05</td>
-      <td>0.0</td>
-      <td>5.498282</td>
-    </tr>
-    <tr>
-      <td>8448</td>
+      <td>10219</td>
       <td>广东省</td>
       <td>深圳</td>
       <td>316</td>
@@ -114,7 +101,7 @@ city_daily_data.tail(5)
       <td>6.962025</td>
     </tr>
     <tr>
-      <td>6136</td>
+      <td>7907</td>
       <td>广东省</td>
       <td>深圳</td>
       <td>339</td>
@@ -127,7 +114,7 @@ city_daily_data.tail(5)
       <td>9.144543</td>
     </tr>
     <tr>
-      <td>3076</td>
+      <td>4847</td>
       <td>广东省</td>
       <td>深圳</td>
       <td>354</td>
@@ -140,17 +127,30 @@ city_daily_data.tail(5)
       <td>11.016949</td>
     </tr>
     <tr>
-      <td>719</td>
+      <td>1736</td>
       <td>广东省</td>
       <td>深圳</td>
       <td>366</td>
       <td>0</td>
       <td>46</td>
       <td>0</td>
-      <td>2020-02-09 17:51:22.934</td>
+      <td>2020-02-09 23:00:53.855</td>
       <td>2020-02-09</td>
       <td>0.0</td>
       <td>12.568306</td>
+    </tr>
+    <tr>
+      <td>129</td>
+      <td>广东省</td>
+      <td>深圳</td>
+      <td>369</td>
+      <td>0</td>
+      <td>56</td>
+      <td>0</td>
+      <td>2020-02-10 21:36:08.643</td>
+      <td>2020-02-10</td>
+      <td>0.0</td>
+      <td>15.176152</td>
     </tr>
   </tbody>
 </table>
@@ -217,20 +217,7 @@ city_daily_data_1st_derivative.tail()
   </thead>
   <tbody>
     <tr>
-      <td>10718</td>
-      <td>广东省</td>
-      <td>深圳</td>
-      <td>20.0</td>
-      <td>0.0</td>
-      <td>3.0</td>
-      <td>0.0</td>
-      <td>2020-02-05 21:18:47.516</td>
-      <td>2020-02-05</td>
-      <td>0.0</td>
-      <td>0.701234</td>
-    </tr>
-    <tr>
-      <td>8448</td>
+      <td>10219</td>
       <td>广东省</td>
       <td>深圳</td>
       <td>25.0</td>
@@ -243,7 +230,7 @@ city_daily_data_1st_derivative.tail()
       <td>1.463744</td>
     </tr>
     <tr>
-      <td>6136</td>
+      <td>7907</td>
       <td>广东省</td>
       <td>深圳</td>
       <td>23.0</td>
@@ -256,7 +243,7 @@ city_daily_data_1st_derivative.tail()
       <td>2.182517</td>
     </tr>
     <tr>
-      <td>3076</td>
+      <td>4847</td>
       <td>广东省</td>
       <td>深圳</td>
       <td>15.0</td>
@@ -269,17 +256,30 @@ city_daily_data_1st_derivative.tail()
       <td>1.872406</td>
     </tr>
     <tr>
-      <td>719</td>
+      <td>1736</td>
       <td>广东省</td>
       <td>深圳</td>
       <td>12.0</td>
       <td>0.0</td>
       <td>7.0</td>
       <td>0.0</td>
-      <td>2020-02-09 17:51:22.934</td>
+      <td>2020-02-09 23:00:53.855</td>
       <td>2020-02-09</td>
       <td>0.0</td>
       <td>1.551357</td>
+    </tr>
+    <tr>
+      <td>129</td>
+      <td>广东省</td>
+      <td>深圳</td>
+      <td>3.0</td>
+      <td>0.0</td>
+      <td>10.0</td>
+      <td>0.0</td>
+      <td>2020-02-10 21:36:08.643</td>
+      <td>2020-02-10</td>
+      <td>0.0</td>
+      <td>2.607846</td>
     </tr>
   </tbody>
 </table>
@@ -346,20 +346,7 @@ city_daily_data_2nd_derivative.tail()
   </thead>
   <tbody>
     <tr>
-      <td>10718</td>
-      <td>广东省</td>
-      <td>深圳</td>
-      <td>-6.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>2020-02-05 21:18:47.516</td>
-      <td>2020-02-05</td>
-      <td>0.0</td>
-      <td>-0.014182</td>
-    </tr>
-    <tr>
-      <td>8448</td>
+      <td>10219</td>
       <td>广东省</td>
       <td>深圳</td>
       <td>5.0</td>
@@ -372,7 +359,7 @@ city_daily_data_2nd_derivative.tail()
       <td>0.762510</td>
     </tr>
     <tr>
-      <td>6136</td>
+      <td>7907</td>
       <td>广东省</td>
       <td>深圳</td>
       <td>-2.0</td>
@@ -385,7 +372,7 @@ city_daily_data_2nd_derivative.tail()
       <td>0.718774</td>
     </tr>
     <tr>
-      <td>3076</td>
+      <td>4847</td>
       <td>广东省</td>
       <td>深圳</td>
       <td>-8.0</td>
@@ -398,17 +385,30 @@ city_daily_data_2nd_derivative.tail()
       <td>-0.310111</td>
     </tr>
     <tr>
-      <td>719</td>
+      <td>1736</td>
       <td>广东省</td>
       <td>深圳</td>
       <td>-3.0</td>
       <td>0.0</td>
       <td>-1.0</td>
       <td>0.0</td>
-      <td>2020-02-09 17:51:22.934</td>
+      <td>2020-02-09 23:00:53.855</td>
       <td>2020-02-09</td>
       <td>0.0</td>
       <td>-0.321050</td>
+    </tr>
+    <tr>
+      <td>129</td>
+      <td>广东省</td>
+      <td>深圳</td>
+      <td>-9.0</td>
+      <td>0.0</td>
+      <td>3.0</td>
+      <td>0.0</td>
+      <td>2020-02-10 21:36:08.643</td>
+      <td>2020-02-10</td>
+      <td>0.0</td>
+      <td>1.056489</td>
     </tr>
   </tbody>
 </table>
@@ -555,15 +555,6 @@ white_daily_data_1st_derivative.tail()
   </thead>
   <tbody>
     <tr>
-      <td>2020-02-05</td>
-      <td>704.0</td>
-      <td>0.0</td>
-      <td>156.0</td>
-      <td>2.0</td>
-      <td>0.011587</td>
-      <td>1.613539</td>
-    </tr>
-    <tr>
       <td>2020-02-06</td>
       <td>750.0</td>
       <td>-2.0</td>
@@ -594,10 +585,19 @@ white_daily_data_1st_derivative.tail()
       <td>2020-02-09</td>
       <td>466.0</td>
       <td>0.0</td>
-      <td>266.0</td>
+      <td>267.0</td>
       <td>3.0</td>
       <td>0.017723</td>
-      <td>2.096260</td>
+      <td>2.106149</td>
+    </tr>
+    <tr>
+      <td>2020-02-10</td>
+      <td>433.0</td>
+      <td>0.0</td>
+      <td>264.0</td>
+      <td>7.0</td>
+      <td>0.055008</td>
+      <td>1.941016</td>
     </tr>
   </tbody>
 </table>
@@ -669,15 +669,6 @@ white_daily_data_2nd_derivative.tail()
   </thead>
   <tbody>
     <tr>
-      <td>2020-02-05</td>
-      <td>75.0</td>
-      <td>-2.0</td>
-      <td>50.0</td>
-      <td>3.0</td>
-      <td>0.042976</td>
-      <td>0.395086</td>
-    </tr>
-    <tr>
       <td>2020-02-06</td>
       <td>46.0</td>
       <td>-2.0</td>
@@ -708,10 +699,19 @@ white_daily_data_2nd_derivative.tail()
       <td>2020-02-09</td>
       <td>-92.0</td>
       <td>0.0</td>
-      <td>18.0</td>
+      <td>19.0</td>
       <td>-4.0</td>
       <td>-0.043383</td>
-      <td>0.079175</td>
+      <td>0.089064</td>
+    </tr>
+    <tr>
+      <td>2020-02-10</td>
+      <td>-33.0</td>
+      <td>0.0</td>
+      <td>-3.0</td>
+      <td>4.0</td>
+      <td>0.037285</td>
+      <td>-0.165132</td>
     </tr>
   </tbody>
 </table>
@@ -816,20 +816,7 @@ city_daily_data.tail(5)
   </thead>
   <tbody>
     <tr>
-      <td>10458</td>
-      <td>湖北省</td>
-      <td>武汉</td>
-      <td>8351</td>
-      <td>0</td>
-      <td>374</td>
-      <td>362</td>
-      <td>2020-02-05 23:52:29.021</td>
-      <td>2020-02-05</td>
-      <td>4.334810</td>
-      <td>4.478506</td>
-    </tr>
-    <tr>
-      <td>8468</td>
+      <td>10239</td>
       <td>湖北省</td>
       <td>武汉</td>
       <td>10117</td>
@@ -842,7 +829,7 @@ city_daily_data.tail(5)
       <td>4.497381</td>
     </tr>
     <tr>
-      <td>5427</td>
+      <td>7198</td>
       <td>湖北省</td>
       <td>武汉</td>
       <td>11618</td>
@@ -855,7 +842,7 @@ city_daily_data.tail(5)
       <td>4.665175</td>
     </tr>
     <tr>
-      <td>2896</td>
+      <td>4667</td>
       <td>湖北省</td>
       <td>武汉</td>
       <td>13603</td>
@@ -868,7 +855,7 @@ city_daily_data.tail(5)
       <td>5.491436</td>
     </tr>
     <tr>
-      <td>407</td>
+      <td>2178</td>
       <td>湖北省</td>
       <td>武汉</td>
       <td>14982</td>
@@ -879,6 +866,19 @@ city_daily_data.tail(5)
       <td>2020-02-09</td>
       <td>4.058203</td>
       <td>5.860366</td>
+    </tr>
+    <tr>
+      <td>150</td>
+      <td>湖北省</td>
+      <td>武汉</td>
+      <td>16902</td>
+      <td>0</td>
+      <td>1046</td>
+      <td>681</td>
+      <td>2020-02-10 21:30:02.904</td>
+      <td>2020-02-10</td>
+      <td>4.029109</td>
+      <td>6.188617</td>
     </tr>
   </tbody>
 </table>
@@ -945,20 +945,7 @@ city_daily_data_1st_derivative.tail()
   </thead>
   <tbody>
     <tr>
-      <td>10458</td>
-      <td>湖北省</td>
-      <td>武汉</td>
-      <td>1967.0</td>
-      <td>0.0</td>
-      <td>68.0</td>
-      <td>49.0</td>
-      <td>2020-02-05 23:52:29.021</td>
-      <td>2020-02-05</td>
-      <td>-0.568072</td>
-      <td>-0.314728</td>
-    </tr>
-    <tr>
-      <td>8468</td>
+      <td>10239</td>
       <td>湖北省</td>
       <td>武汉</td>
       <td>1766.0</td>
@@ -971,7 +958,7 @@ city_daily_data_1st_derivative.tail()
       <td>0.018875</td>
     </tr>
     <tr>
-      <td>5427</td>
+      <td>7198</td>
       <td>湖北省</td>
       <td>武汉</td>
       <td>1501.0</td>
@@ -984,7 +971,7 @@ city_daily_data_1st_derivative.tail()
       <td>0.167794</td>
     </tr>
     <tr>
-      <td>2896</td>
+      <td>4667</td>
       <td>湖北省</td>
       <td>武汉</td>
       <td>1985.0</td>
@@ -997,7 +984,7 @@ city_daily_data_1st_derivative.tail()
       <td>0.826261</td>
     </tr>
     <tr>
-      <td>407</td>
+      <td>2178</td>
       <td>湖北省</td>
       <td>武汉</td>
       <td>1379.0</td>
@@ -1008,6 +995,19 @@ city_daily_data_1st_derivative.tail()
       <td>2020-02-09</td>
       <td>0.051734</td>
       <td>0.368930</td>
+    </tr>
+    <tr>
+      <td>150</td>
+      <td>湖北省</td>
+      <td>武汉</td>
+      <td>1920.0</td>
+      <td>0.0</td>
+      <td>168.0</td>
+      <td>73.0</td>
+      <td>2020-02-10 21:30:02.904</td>
+      <td>2020-02-10</td>
+      <td>-0.029094</td>
+      <td>0.328251</td>
     </tr>
   </tbody>
 </table>
@@ -1074,20 +1074,7 @@ city_daily_data_2nd_derivative.tail()
   </thead>
   <tbody>
     <tr>
-      <td>10458</td>
-      <td>湖北省</td>
-      <td>武汉</td>
-      <td>725.0</td>
-      <td>0.0</td>
-      <td>-10.0</td>
-      <td>1.0</td>
-      <td>2020-02-05 23:52:29.021</td>
-      <td>2020-02-05</td>
-      <td>-0.317317</td>
-      <td>-0.673888</td>
-    </tr>
-    <tr>
-      <td>8468</td>
+      <td>10239</td>
       <td>湖北省</td>
       <td>武汉</td>
       <td>-201.0</td>
@@ -1100,7 +1087,7 @@ city_daily_data_2nd_derivative.tail()
       <td>0.333603</td>
     </tr>
     <tr>
-      <td>5427</td>
+      <td>7198</td>
       <td>湖北省</td>
       <td>武汉</td>
       <td>-265.0</td>
@@ -1113,7 +1100,7 @@ city_daily_data_2nd_derivative.tail()
       <td>0.148919</td>
     </tr>
     <tr>
-      <td>2896</td>
+      <td>4667</td>
       <td>湖北省</td>
       <td>武汉</td>
       <td>484.0</td>
@@ -1126,7 +1113,7 @@ city_daily_data_2nd_derivative.tail()
       <td>0.658467</td>
     </tr>
     <tr>
-      <td>407</td>
+      <td>2178</td>
       <td>湖北省</td>
       <td>武汉</td>
       <td>-606.0</td>
@@ -1137,6 +1124,19 @@ city_daily_data_2nd_derivative.tail()
       <td>2020-02-09</td>
       <td>0.159570</td>
       <td>-0.457331</td>
+    </tr>
+    <tr>
+      <td>150</td>
+      <td>湖北省</td>
+      <td>武汉</td>
+      <td>541.0</td>
+      <td>0.0</td>
+      <td>37.0</td>
+      <td>10.0</td>
+      <td>2020-02-10 21:30:02.904</td>
+      <td>2020-02-10</td>
+      <td>-0.080828</td>
+      <td>-0.040679</td>
     </tr>
   </tbody>
 </table>
