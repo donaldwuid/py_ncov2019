@@ -75,3 +75,27 @@ def diff(df):
     df_ret[fields] = df_nums[fields]
 
     return df_ret
+
+def get_first_digit(num):
+    str_num = str(num)
+    
+    return str_num[0]
+
+
+def benford(ds):
+    benford_result = [0] * 10
+
+    total_count = 0
+    for one_item in ds:
+        if one_item != 0:
+            first_digit = int(get_first_digit(one_item))
+            benford_result[first_digit] += 1
+            total_count += 1
+
+    for i in range(1, 10):
+        benford_result[i] /= total_count
+
+    list_of_tuples = list(zip(['1', '2', '3', '4', '5', '6', '7', '8', '9'], benford_result[1:10]))
+    
+
+    return pd.DataFrame(list_of_tuples, columns = ['Digit', 'Percent'])

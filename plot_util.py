@@ -39,3 +39,12 @@ def plot_conf_dead_cured_ratio(df, title, figsize=(13,6), fontsize=18, logy=Fals
     fig.suptitle(title, fontsize=fontsize)
 
     return fig
+
+def plot_bar(df, title, xName, yName, figsize=(13,6), fontsize=18):
+    fig = plt.figure()
+
+    ax = fig.add_subplot(211)
+    df.plot.bar(x=xName, y=yName, ax=ax, figsize=figsize)
+
+    fig.suptitle(title, fontsize=fontsize)
+
