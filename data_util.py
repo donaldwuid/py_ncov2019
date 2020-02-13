@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 
-REMOTE_DATA_PATH = 'http://raw.githubusercontent.com/BlankerL/DXY-2019-nCoV-Data/master/csv/DXYArea.csv'
+REMOTE_DATA_PATH = 'https://raw.githubusercontent.com/BlankerL/DXY-2019-nCoV-Data/master/csv/DXYArea.csv'
 
 LOCAL_DATA_PATH = './data/csv/DXYArea.csv'
 
