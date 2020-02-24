@@ -98,7 +98,11 @@ city_daily_data.tail(5)
     <tr style="text-align: right;">
       <th></th>
       <th>provinceName</th>
+      <th>provinceEnglishName</th>
+      <th>province_zipCode</th>
       <th>cityName</th>
+      <th>cityEnglishName</th>
+      <th>city_zipCode</th>
       <th>confirmed</th>
       <th>suspected</th>
       <th>cured</th>
@@ -111,69 +115,89 @@ city_daily_data.tail(5)
   </thead>
   <tbody>
     <tr>
-      <td>7689</td>
+      <td>5580</td>
       <td>广东省</td>
+      <td>Guangdong</td>
+      <td>440000</td>
       <td>深圳</td>
-      <td>366</td>
+      <td>Shenzhen</td>
+      <td>440300.0</td>
+      <td>416</td>
       <td>0</td>
-      <td>46</td>
-      <td>0</td>
-      <td>2020-02-09 23:00:53.855</td>
-      <td>2020-02-09</td>
-      <td>0.0</td>
-      <td>12.568306</td>
+      <td>199</td>
+      <td>2</td>
+      <td>2020-02-20 19:07:19.834</td>
+      <td>2020-02-20</td>
+      <td>0.480769</td>
+      <td>47.836538</td>
     </tr>
     <tr>
-      <td>6082</td>
+      <td>4495</td>
       <td>广东省</td>
+      <td>Guangdong</td>
+      <td>440000</td>
       <td>深圳</td>
-      <td>369</td>
+      <td>Shenzhen</td>
+      <td>440300.0</td>
+      <td>416</td>
       <td>0</td>
-      <td>56</td>
-      <td>0</td>
-      <td>2020-02-10 21:36:08.643</td>
-      <td>2020-02-10</td>
-      <td>0.0</td>
-      <td>15.176152</td>
+      <td>222</td>
+      <td>2</td>
+      <td>2020-02-21 18:12:13.066</td>
+      <td>2020-02-21</td>
+      <td>0.480769</td>
+      <td>53.365385</td>
     </tr>
     <tr>
-      <td>4127</td>
+      <td>2753</td>
       <td>广东省</td>
+      <td>Guangdong</td>
+      <td>440000</td>
       <td>深圳</td>
-      <td>375</td>
+      <td>Shenzhen</td>
+      <td>440300.0</td>
+      <td>417</td>
       <td>0</td>
-      <td>66</td>
-      <td>0</td>
-      <td>2020-02-11 21:55:20.587</td>
-      <td>2020-02-11</td>
-      <td>0.0</td>
-      <td>17.600000</td>
+      <td>226</td>
+      <td>2</td>
+      <td>2020-02-22 18:01:40.406</td>
+      <td>2020-02-22</td>
+      <td>0.479616</td>
+      <td>54.196643</td>
     </tr>
     <tr>
-      <td>1985</td>
+      <td>1065</td>
       <td>广东省</td>
+      <td>Guangdong</td>
+      <td>440000</td>
       <td>深圳</td>
-      <td>386</td>
+      <td>Shenzhen</td>
+      <td>440300.0</td>
+      <td>417</td>
       <td>0</td>
-      <td>82</td>
-      <td>0</td>
-      <td>2020-02-12 20:15:15.388</td>
-      <td>2020-02-12</td>
-      <td>0.0</td>
-      <td>21.243523</td>
+      <td>237</td>
+      <td>3</td>
+      <td>2020-02-23 19:19:02.938</td>
+      <td>2020-02-23</td>
+      <td>0.719424</td>
+      <td>56.834532</td>
     </tr>
     <tr>
-      <td>28</td>
+      <td>32</td>
       <td>广东省</td>
+      <td>Guangdong</td>
+      <td>440000</td>
       <td>深圳</td>
-      <td>391</td>
+      <td>Shenzhen</td>
+      <td>440300.0</td>
+      <td>417</td>
       <td>0</td>
-      <td>94</td>
-      <td>0</td>
-      <td>2020-02-13 18:30:50.712</td>
-      <td>2020-02-13</td>
-      <td>0.0</td>
-      <td>24.040921</td>
+      <td>249</td>
+      <td>3</td>
+      <td>2020-02-24 18:16:54.754</td>
+      <td>2020-02-24</td>
+      <td>0.719424</td>
+      <td>59.712230</td>
     </tr>
   </tbody>
 </table>
@@ -227,7 +251,11 @@ city_daily_data_1st_derivative.tail()
     <tr style="text-align: right;">
       <th></th>
       <th>provinceName</th>
+      <th>provinceEnglishName</th>
+      <th>province_zipCode</th>
       <th>cityName</th>
+      <th>cityEnglishName</th>
+      <th>city_zipCode</th>
       <th>confirmed</th>
       <th>suspected</th>
       <th>cured</th>
@@ -240,69 +268,89 @@ city_daily_data_1st_derivative.tail()
   </thead>
   <tbody>
     <tr>
-      <td>7689</td>
+      <td>5580</td>
       <td>广东省</td>
+      <td>Guangdong</td>
+      <td>440000</td>
       <td>深圳</td>
-      <td>12.0</td>
+      <td>Shenzhen</td>
+      <td>440300.0</td>
       <td>0.0</td>
-      <td>7.0</td>
       <td>0.0</td>
-      <td>2020-02-09 23:00:53.855</td>
-      <td>2020-02-09</td>
+      <td>17.0</td>
       <td>0.0</td>
-      <td>1.551357</td>
+      <td>2020-02-20 19:07:19.834</td>
+      <td>2020-02-20</td>
+      <td>0.000000</td>
+      <td>4.086538</td>
     </tr>
     <tr>
-      <td>6082</td>
+      <td>4495</td>
       <td>广东省</td>
+      <td>Guangdong</td>
+      <td>440000</td>
       <td>深圳</td>
-      <td>3.0</td>
+      <td>Shenzhen</td>
+      <td>440300.0</td>
       <td>0.0</td>
-      <td>10.0</td>
       <td>0.0</td>
-      <td>2020-02-10 21:36:08.643</td>
-      <td>2020-02-10</td>
+      <td>23.0</td>
       <td>0.0</td>
-      <td>2.607846</td>
+      <td>2020-02-21 18:12:13.066</td>
+      <td>2020-02-21</td>
+      <td>0.000000</td>
+      <td>5.528846</td>
     </tr>
     <tr>
-      <td>4127</td>
+      <td>2753</td>
       <td>广东省</td>
+      <td>Guangdong</td>
+      <td>440000</td>
       <td>深圳</td>
-      <td>6.0</td>
+      <td>Shenzhen</td>
+      <td>440300.0</td>
+      <td>1.0</td>
       <td>0.0</td>
-      <td>10.0</td>
+      <td>4.0</td>
       <td>0.0</td>
-      <td>2020-02-11 21:55:20.587</td>
-      <td>2020-02-11</td>
-      <td>0.0</td>
-      <td>2.423848</td>
+      <td>2020-02-22 18:01:40.406</td>
+      <td>2020-02-22</td>
+      <td>-0.001153</td>
+      <td>0.831258</td>
     </tr>
     <tr>
-      <td>1985</td>
+      <td>1065</td>
       <td>广东省</td>
+      <td>Guangdong</td>
+      <td>440000</td>
       <td>深圳</td>
+      <td>Shenzhen</td>
+      <td>440300.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
       <td>11.0</td>
-      <td>0.0</td>
-      <td>16.0</td>
-      <td>0.0</td>
-      <td>2020-02-12 20:15:15.388</td>
-      <td>2020-02-12</td>
-      <td>0.0</td>
-      <td>3.643523</td>
+      <td>1.0</td>
+      <td>2020-02-23 19:19:02.938</td>
+      <td>2020-02-23</td>
+      <td>0.239808</td>
+      <td>2.637890</td>
     </tr>
     <tr>
-      <td>28</td>
+      <td>32</td>
       <td>广东省</td>
+      <td>Guangdong</td>
+      <td>440000</td>
       <td>深圳</td>
-      <td>5.0</td>
+      <td>Shenzhen</td>
+      <td>440300.0</td>
+      <td>0.0</td>
       <td>0.0</td>
       <td>12.0</td>
       <td>0.0</td>
-      <td>2020-02-13 18:30:50.712</td>
-      <td>2020-02-13</td>
-      <td>0.0</td>
-      <td>2.797397</td>
+      <td>2020-02-24 18:16:54.754</td>
+      <td>2020-02-24</td>
+      <td>0.000000</td>
+      <td>2.877698</td>
     </tr>
   </tbody>
 </table>
@@ -356,7 +404,11 @@ city_daily_data_2nd_derivative.tail()
     <tr style="text-align: right;">
       <th></th>
       <th>provinceName</th>
+      <th>provinceEnglishName</th>
+      <th>province_zipCode</th>
       <th>cityName</th>
+      <th>cityEnglishName</th>
+      <th>city_zipCode</th>
       <th>confirmed</th>
       <th>suspected</th>
       <th>cured</th>
@@ -369,69 +421,89 @@ city_daily_data_2nd_derivative.tail()
   </thead>
   <tbody>
     <tr>
-      <td>7689</td>
+      <td>5580</td>
       <td>广东省</td>
+      <td>Guangdong</td>
+      <td>440000</td>
       <td>深圳</td>
-      <td>-3.0</td>
+      <td>Shenzhen</td>
+      <td>440300.0</td>
       <td>0.0</td>
-      <td>-1.0</td>
       <td>0.0</td>
-      <td>2020-02-09 23:00:53.855</td>
-      <td>2020-02-09</td>
+      <td>-2.0</td>
       <td>0.0</td>
-      <td>-0.321050</td>
+      <td>2020-02-20 19:07:19.834</td>
+      <td>2020-02-20</td>
+      <td>0.000000</td>
+      <td>-0.480769</td>
     </tr>
     <tr>
-      <td>6082</td>
+      <td>4495</td>
       <td>广东省</td>
+      <td>Guangdong</td>
+      <td>440000</td>
       <td>深圳</td>
-      <td>-9.0</td>
+      <td>Shenzhen</td>
+      <td>440300.0</td>
       <td>0.0</td>
-      <td>3.0</td>
-      <td>0.0</td>
-      <td>2020-02-10 21:36:08.643</td>
-      <td>2020-02-10</td>
-      <td>0.0</td>
-      <td>1.056489</td>
-    </tr>
-    <tr>
-      <td>4127</td>
-      <td>广东省</td>
-      <td>深圳</td>
-      <td>3.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>2020-02-11 21:55:20.587</td>
-      <td>2020-02-11</td>
-      <td>0.0</td>
-      <td>-0.183998</td>
-    </tr>
-    <tr>
-      <td>1985</td>
-      <td>广东省</td>
-      <td>深圳</td>
-      <td>5.0</td>
       <td>0.0</td>
       <td>6.0</td>
       <td>0.0</td>
-      <td>2020-02-12 20:15:15.388</td>
-      <td>2020-02-12</td>
-      <td>0.0</td>
-      <td>1.219675</td>
+      <td>2020-02-21 18:12:13.066</td>
+      <td>2020-02-21</td>
+      <td>0.000000</td>
+      <td>1.442308</td>
     </tr>
     <tr>
-      <td>28</td>
+      <td>2753</td>
       <td>广东省</td>
+      <td>Guangdong</td>
+      <td>440000</td>
       <td>深圳</td>
-      <td>-6.0</td>
+      <td>Shenzhen</td>
+      <td>440300.0</td>
+      <td>1.0</td>
       <td>0.0</td>
-      <td>-4.0</td>
+      <td>-19.0</td>
       <td>0.0</td>
-      <td>2020-02-13 18:30:50.712</td>
-      <td>2020-02-13</td>
+      <td>2020-02-22 18:01:40.406</td>
+      <td>2020-02-22</td>
+      <td>-0.001153</td>
+      <td>-4.697588</td>
+    </tr>
+    <tr>
+      <td>1065</td>
+      <td>广东省</td>
+      <td>Guangdong</td>
+      <td>440000</td>
+      <td>深圳</td>
+      <td>Shenzhen</td>
+      <td>440300.0</td>
+      <td>-1.0</td>
       <td>0.0</td>
-      <td>-0.846126</td>
+      <td>7.0</td>
+      <td>1.0</td>
+      <td>2020-02-23 19:19:02.938</td>
+      <td>2020-02-23</td>
+      <td>0.240961</td>
+      <td>1.806632</td>
+    </tr>
+    <tr>
+      <td>32</td>
+      <td>广东省</td>
+      <td>Guangdong</td>
+      <td>440000</td>
+      <td>深圳</td>
+      <td>Shenzhen</td>
+      <td>440300.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>1.0</td>
+      <td>-1.0</td>
+      <td>2020-02-24 18:16:54.754</td>
+      <td>2020-02-24</td>
+      <td>-0.239808</td>
+      <td>0.239808</td>
     </tr>
   </tbody>
 </table>
@@ -555,6 +627,8 @@ white_daily_data_1st_derivative.tail()
   <thead>
     <tr style="text-align: right;">
       <th></th>
+      <th>province_zipCode</th>
+      <th>city_zipCode</th>
       <th>confirmed</th>
       <th>suspected</th>
       <th>cured</th>
@@ -570,53 +644,65 @@ white_daily_data_1st_derivative.tail()
       <th></th>
       <th></th>
       <th></th>
+      <th></th>
+      <th></th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>2020-02-09</td>
-      <td>466.0</td>
+      <td>2020-02-20</td>
+      <td>151280000</td>
+      <td>139543970.0</td>
+      <td>25.0</td>
       <td>0.0</td>
-      <td>267.0</td>
-      <td>3.0</td>
-      <td>0.017723</td>
-      <td>2.106149</td>
-    </tr>
-    <tr>
-      <td>2020-02-10</td>
-      <td>433.0</td>
-      <td>0.0</td>
-      <td>264.0</td>
-      <td>7.0</td>
-      <td>0.055008</td>
-      <td>1.941016</td>
-    </tr>
-    <tr>
-      <td>2020-02-11</td>
-      <td>337.0</td>
-      <td>0.0</td>
-      <td>277.0</td>
+      <td>572.0</td>
       <td>2.0</td>
-      <td>0.008100</td>
-      <td>2.061066</td>
+      <td>0.014783</td>
+      <td>4.479124</td>
     </tr>
     <tr>
-      <td>2020-02-12</td>
-      <td>438.0</td>
+      <td>2020-02-21</td>
+      <td>153240000</td>
+      <td>140806270.0</td>
+      <td>476.0</td>
       <td>0.0</td>
-      <td>400.0</td>
+      <td>610.0</td>
       <td>4.0</td>
-      <td>0.022179</td>
-      <td>2.848562</td>
+      <td>0.008554</td>
+      <td>2.937501</td>
     </tr>
     <tr>
-      <td>2020-02-13</td>
-      <td>295.0</td>
+      <td>2020-02-22</td>
+      <td>140740000</td>
+      <td>129510470.0</td>
+      <td>-348.0</td>
       <td>0.0</td>
-      <td>294.0</td>
-      <td>11.0</td>
-      <td>0.085500</td>
-      <td>2.009208</td>
+      <td>418.0</td>
+      <td>6.0</td>
+      <td>0.064324</td>
+      <td>4.700671</td>
+    </tr>
+    <tr>
+      <td>2020-02-23</td>
+      <td>152910000</td>
+      <td>141346370.0</td>
+      <td>196.0</td>
+      <td>0.0</td>
+      <td>583.0</td>
+      <td>-2.0</td>
+      <td>-0.025925</td>
+      <td>3.689261</td>
+    </tr>
+    <tr>
+      <td>2020-02-24</td>
+      <td>130300000</td>
+      <td>123221439.0</td>
+      <td>-456.0</td>
+      <td>0.0</td>
+      <td>71.0</td>
+      <td>-1.0</td>
+      <td>0.015976</td>
+      <td>2.751535</td>
     </tr>
   </tbody>
 </table>
@@ -669,6 +755,8 @@ white_daily_data_2nd_derivative.tail()
   <thead>
     <tr style="text-align: right;">
       <th></th>
+      <th>province_zipCode</th>
+      <th>city_zipCode</th>
       <th>confirmed</th>
       <th>suspected</th>
       <th>cured</th>
@@ -684,53 +772,65 @@ white_daily_data_2nd_derivative.tail()
       <th></th>
       <th></th>
       <th></th>
+      <th></th>
+      <th></th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>2020-02-09</td>
-      <td>-92.0</td>
+      <td>2020-02-20</td>
+      <td>151280000</td>
+      <td>139543970.0</td>
+      <td>-29.0</td>
       <td>0.0</td>
-      <td>19.0</td>
+      <td>57.0</td>
       <td>-4.0</td>
-      <td>-0.043383</td>
-      <td>0.089064</td>
+      <td>-0.030846</td>
+      <td>0.530595</td>
     </tr>
     <tr>
-      <td>2020-02-10</td>
-      <td>-33.0</td>
+      <td>2020-02-21</td>
+      <td>153240000</td>
+      <td>140806270.0</td>
+      <td>451.0</td>
       <td>0.0</td>
-      <td>-3.0</td>
-      <td>4.0</td>
-      <td>0.037285</td>
-      <td>-0.165132</td>
-    </tr>
-    <tr>
-      <td>2020-02-11</td>
-      <td>-96.0</td>
-      <td>0.0</td>
-      <td>13.0</td>
-      <td>-5.0</td>
-      <td>-0.046908</td>
-      <td>0.120049</td>
-    </tr>
-    <tr>
-      <td>2020-02-12</td>
-      <td>101.0</td>
-      <td>0.0</td>
-      <td>123.0</td>
+      <td>38.0</td>
       <td>2.0</td>
-      <td>0.014079</td>
-      <td>0.787496</td>
+      <td>-0.006229</td>
+      <td>-1.541622</td>
     </tr>
     <tr>
-      <td>2020-02-13</td>
-      <td>-143.0</td>
+      <td>2020-02-22</td>
+      <td>140740000</td>
+      <td>129510470.0</td>
+      <td>-824.0</td>
       <td>0.0</td>
-      <td>-106.0</td>
-      <td>7.0</td>
-      <td>0.063321</td>
-      <td>-0.839354</td>
+      <td>-192.0</td>
+      <td>2.0</td>
+      <td>0.055770</td>
+      <td>1.763170</td>
+    </tr>
+    <tr>
+      <td>2020-02-23</td>
+      <td>152910000</td>
+      <td>141346370.0</td>
+      <td>544.0</td>
+      <td>0.0</td>
+      <td>165.0</td>
+      <td>-8.0</td>
+      <td>-0.090249</td>
+      <td>-1.011410</td>
+    </tr>
+    <tr>
+      <td>2020-02-24</td>
+      <td>130300000</td>
+      <td>123221439.0</td>
+      <td>-652.0</td>
+      <td>0.0</td>
+      <td>-512.0</td>
+      <td>1.0</td>
+      <td>0.041901</td>
+      <td>-0.937726</td>
     </tr>
   </tbody>
 </table>
@@ -822,7 +922,11 @@ city_daily_data.tail(5)
     <tr style="text-align: right;">
       <th></th>
       <th>provinceName</th>
+      <th>provinceEnglishName</th>
+      <th>province_zipCode</th>
       <th>cityName</th>
+      <th>cityEnglishName</th>
+      <th>city_zipCode</th>
       <th>confirmed</th>
       <th>suspected</th>
       <th>cured</th>
@@ -835,69 +939,89 @@ city_daily_data.tail(5)
   </thead>
   <tbody>
     <tr>
-      <td>8131</td>
+      <td>5336</td>
       <td>湖北省</td>
+      <td>Hubei</td>
+      <td>420000</td>
       <td>武汉</td>
-      <td>14982</td>
+      <td>Wuhan</td>
+      <td>420100.0</td>
+      <td>45027</td>
       <td>0</td>
-      <td>878</td>
-      <td>608</td>
-      <td>2020-02-09 19:09:33.896</td>
-      <td>2020-02-09</td>
-      <td>4.058203</td>
-      <td>5.860366</td>
+      <td>5598</td>
+      <td>1585</td>
+      <td>2020-02-20 22:08:31.581</td>
+      <td>2020-02-20</td>
+      <td>3.520110</td>
+      <td>12.432540</td>
     </tr>
     <tr>
-      <td>6103</td>
+      <td>4068</td>
       <td>湖北省</td>
+      <td>Hubei</td>
+      <td>420000</td>
       <td>武汉</td>
-      <td>16902</td>
+      <td>Wuhan</td>
+      <td>420100.0</td>
+      <td>45346</td>
       <td>0</td>
-      <td>1046</td>
-      <td>681</td>
-      <td>2020-02-10 21:30:02.904</td>
-      <td>2020-02-10</td>
-      <td>4.029109</td>
-      <td>6.188617</td>
+      <td>6281</td>
+      <td>1684</td>
+      <td>2020-02-21 20:57:17.698</td>
+      <td>2020-02-21</td>
+      <td>3.713668</td>
+      <td>13.851277</td>
     </tr>
     <tr>
-      <td>4110</td>
+      <td>2545</td>
       <td>湖北省</td>
+      <td>Hubei</td>
+      <td>420000</td>
       <td>武汉</td>
-      <td>18454</td>
+      <td>Wuhan</td>
+      <td>420100.0</td>
+      <td>45660</td>
       <td>0</td>
-      <td>1242</td>
-      <td>748</td>
-      <td>2020-02-11 21:55:20.587</td>
-      <td>2020-02-11</td>
-      <td>4.053322</td>
-      <td>6.730248</td>
+      <td>7292</td>
+      <td>1774</td>
+      <td>2020-02-22 20:55:28.727</td>
+      <td>2020-02-22</td>
+      <td>3.885239</td>
+      <td>15.970215</td>
     </tr>
     <tr>
-      <td>1834</td>
+      <td>928</td>
       <td>湖北省</td>
+      <td>Hubei</td>
+      <td>420000</td>
       <td>武汉</td>
-      <td>19558</td>
+      <td>Wuhan</td>
+      <td>420100.0</td>
+      <td>46201</td>
       <td>0</td>
-      <td>1380</td>
-      <td>820</td>
-      <td>2020-02-12 22:07:03.407</td>
-      <td>2020-02-12</td>
-      <td>4.192658</td>
-      <td>7.055936</td>
+      <td>8189</td>
+      <td>1856</td>
+      <td>2020-02-23 20:06:03.658</td>
+      <td>2020-02-23</td>
+      <td>4.017229</td>
+      <td>17.724725</td>
     </tr>
     <tr>
-      <td>49</td>
-      <td>湖北省</td>
-      <td>武汉</td>
-      <td>32994</td>
       <td>0</td>
-      <td>1923</td>
-      <td>1036</td>
-      <td>2020-02-13 18:26:39.148</td>
-      <td>2020-02-13</td>
-      <td>3.139965</td>
-      <td>5.828332</td>
+      <td>湖北省</td>
+      <td>Hubei</td>
+      <td>420000</td>
+      <td>武汉</td>
+      <td>Wuhan</td>
+      <td>420100.0</td>
+      <td>46607</td>
+      <td>0</td>
+      <td>8950</td>
+      <td>1987</td>
+      <td>2020-02-24 19:12:21.027</td>
+      <td>2020-02-24</td>
+      <td>4.263308</td>
+      <td>19.203124</td>
     </tr>
   </tbody>
 </table>
@@ -951,7 +1075,11 @@ city_daily_data_1st_derivative.tail()
     <tr style="text-align: right;">
       <th></th>
       <th>provinceName</th>
+      <th>provinceEnglishName</th>
+      <th>province_zipCode</th>
       <th>cityName</th>
+      <th>cityEnglishName</th>
+      <th>city_zipCode</th>
       <th>confirmed</th>
       <th>suspected</th>
       <th>cured</th>
@@ -964,69 +1092,89 @@ city_daily_data_1st_derivative.tail()
   </thead>
   <tbody>
     <tr>
-      <td>8131</td>
+      <td>5336</td>
       <td>湖北省</td>
+      <td>Hubei</td>
+      <td>420000</td>
       <td>武汉</td>
-      <td>1379.0</td>
+      <td>Wuhan</td>
+      <td>420100.0</td>
+      <td>615.0</td>
       <td>0.0</td>
+      <td>558.0</td>
+      <td>88.0</td>
+      <td>2020-02-20 22:08:31.581</td>
+      <td>2020-02-20</td>
+      <td>0.149400</td>
+      <td>1.084256</td>
+    </tr>
+    <tr>
+      <td>4068</td>
+      <td>湖北省</td>
+      <td>Hubei</td>
+      <td>420000</td>
+      <td>武汉</td>
+      <td>Wuhan</td>
+      <td>420100.0</td>
+      <td>319.0</td>
+      <td>0.0</td>
+      <td>683.0</td>
+      <td>99.0</td>
+      <td>2020-02-21 20:57:17.698</td>
+      <td>2020-02-21</td>
+      <td>0.193558</td>
+      <td>1.418736</td>
+    </tr>
+    <tr>
+      <td>2545</td>
+      <td>湖北省</td>
+      <td>Hubei</td>
+      <td>420000</td>
+      <td>武汉</td>
+      <td>Wuhan</td>
+      <td>420100.0</td>
+      <td>314.0</td>
+      <td>0.0</td>
+      <td>1011.0</td>
+      <td>90.0</td>
+      <td>2020-02-22 20:55:28.727</td>
+      <td>2020-02-22</td>
+      <td>0.171570</td>
+      <td>2.118938</td>
+    </tr>
+    <tr>
+      <td>928</td>
+      <td>湖北省</td>
+      <td>Hubei</td>
+      <td>420000</td>
+      <td>武汉</td>
+      <td>Wuhan</td>
+      <td>420100.0</td>
+      <td>541.0</td>
+      <td>0.0</td>
+      <td>897.0</td>
+      <td>82.0</td>
+      <td>2020-02-23 20:06:03.658</td>
+      <td>2020-02-23</td>
+      <td>0.131990</td>
+      <td>1.754510</td>
+    </tr>
+    <tr>
+      <td>0</td>
+      <td>湖北省</td>
+      <td>Hubei</td>
+      <td>420000</td>
+      <td>武汉</td>
+      <td>Wuhan</td>
+      <td>420100.0</td>
+      <td>406.0</td>
+      <td>0.0</td>
+      <td>761.0</td>
       <td>131.0</td>
-      <td>63.0</td>
-      <td>2020-02-09 19:09:33.896</td>
-      <td>2020-02-09</td>
-      <td>0.051734</td>
-      <td>0.368930</td>
-    </tr>
-    <tr>
-      <td>6103</td>
-      <td>湖北省</td>
-      <td>武汉</td>
-      <td>1920.0</td>
-      <td>0.0</td>
-      <td>168.0</td>
-      <td>73.0</td>
-      <td>2020-02-10 21:30:02.904</td>
-      <td>2020-02-10</td>
-      <td>-0.029094</td>
-      <td>0.328251</td>
-    </tr>
-    <tr>
-      <td>4110</td>
-      <td>湖北省</td>
-      <td>武汉</td>
-      <td>1552.0</td>
-      <td>0.0</td>
-      <td>196.0</td>
-      <td>67.0</td>
-      <td>2020-02-11 21:55:20.587</td>
-      <td>2020-02-11</td>
-      <td>0.024213</td>
-      <td>0.541631</td>
-    </tr>
-    <tr>
-      <td>1834</td>
-      <td>湖北省</td>
-      <td>武汉</td>
-      <td>1104.0</td>
-      <td>0.0</td>
-      <td>138.0</td>
-      <td>72.0</td>
-      <td>2020-02-12 22:07:03.407</td>
-      <td>2020-02-12</td>
-      <td>0.139336</td>
-      <td>0.325688</td>
-    </tr>
-    <tr>
-      <td>49</td>
-      <td>湖北省</td>
-      <td>武汉</td>
-      <td>13436.0</td>
-      <td>0.0</td>
-      <td>543.0</td>
-      <td>216.0</td>
-      <td>2020-02-13 18:26:39.148</td>
-      <td>2020-02-13</td>
-      <td>-1.052693</td>
-      <td>-1.227604</td>
+      <td>2020-02-24 19:12:21.027</td>
+      <td>2020-02-24</td>
+      <td>0.246079</td>
+      <td>1.478399</td>
     </tr>
   </tbody>
 </table>
@@ -1080,7 +1228,11 @@ city_daily_data_2nd_derivative.tail()
     <tr style="text-align: right;">
       <th></th>
       <th>provinceName</th>
+      <th>provinceEnglishName</th>
+      <th>province_zipCode</th>
       <th>cityName</th>
+      <th>cityEnglishName</th>
+      <th>city_zipCode</th>
       <th>confirmed</th>
       <th>suspected</th>
       <th>cured</th>
@@ -1093,69 +1245,89 @@ city_daily_data_2nd_derivative.tail()
   </thead>
   <tbody>
     <tr>
-      <td>8131</td>
+      <td>5336</td>
       <td>湖北省</td>
+      <td>Hubei</td>
+      <td>420000</td>
       <td>武汉</td>
-      <td>-606.0</td>
+      <td>Wuhan</td>
+      <td>420100.0</td>
+      <td>-1045.0</td>
       <td>0.0</td>
-      <td>-74.0</td>
-      <td>-4.0</td>
-      <td>2020-02-09 19:09:33.896</td>
-      <td>2020-02-09</td>
-      <td>0.159570</td>
-      <td>-0.457331</td>
+      <td>-229.0</td>
+      <td>-28.0</td>
+      <td>2020-02-20 22:08:31.581</td>
+      <td>2020-02-20</td>
+      <td>0.008947</td>
+      <td>-0.315955</td>
     </tr>
     <tr>
-      <td>6103</td>
+      <td>4068</td>
       <td>湖北省</td>
+      <td>Hubei</td>
+      <td>420000</td>
       <td>武汉</td>
-      <td>541.0</td>
+      <td>Wuhan</td>
+      <td>420100.0</td>
+      <td>-296.0</td>
       <td>0.0</td>
-      <td>37.0</td>
-      <td>10.0</td>
-      <td>2020-02-10 21:30:02.904</td>
-      <td>2020-02-10</td>
-      <td>-0.080828</td>
-      <td>-0.040679</td>
+      <td>125.0</td>
+      <td>11.0</td>
+      <td>2020-02-21 20:57:17.698</td>
+      <td>2020-02-21</td>
+      <td>0.044159</td>
+      <td>0.334480</td>
     </tr>
     <tr>
-      <td>4110</td>
+      <td>2545</td>
       <td>湖北省</td>
+      <td>Hubei</td>
+      <td>420000</td>
       <td>武汉</td>
-      <td>-368.0</td>
+      <td>Wuhan</td>
+      <td>420100.0</td>
+      <td>-5.0</td>
       <td>0.0</td>
-      <td>28.0</td>
-      <td>-6.0</td>
-      <td>2020-02-11 21:55:20.587</td>
-      <td>2020-02-11</td>
-      <td>0.053307</td>
-      <td>0.213380</td>
+      <td>328.0</td>
+      <td>-9.0</td>
+      <td>2020-02-22 20:55:28.727</td>
+      <td>2020-02-22</td>
+      <td>-0.021988</td>
+      <td>0.700201</td>
     </tr>
     <tr>
-      <td>1834</td>
+      <td>928</td>
       <td>湖北省</td>
+      <td>Hubei</td>
+      <td>420000</td>
       <td>武汉</td>
-      <td>-448.0</td>
+      <td>Wuhan</td>
+      <td>420100.0</td>
+      <td>227.0</td>
       <td>0.0</td>
-      <td>-58.0</td>
-      <td>5.0</td>
-      <td>2020-02-12 22:07:03.407</td>
-      <td>2020-02-12</td>
-      <td>0.115123</td>
-      <td>-0.215943</td>
+      <td>-114.0</td>
+      <td>-8.0</td>
+      <td>2020-02-23 20:06:03.658</td>
+      <td>2020-02-23</td>
+      <td>-0.039580</td>
+      <td>-0.364428</td>
     </tr>
     <tr>
-      <td>49</td>
+      <td>0</td>
       <td>湖北省</td>
+      <td>Hubei</td>
+      <td>420000</td>
       <td>武汉</td>
-      <td>12332.0</td>
+      <td>Wuhan</td>
+      <td>420100.0</td>
+      <td>-135.0</td>
       <td>0.0</td>
-      <td>405.0</td>
-      <td>144.0</td>
-      <td>2020-02-13 18:26:39.148</td>
-      <td>2020-02-13</td>
-      <td>-1.192029</td>
-      <td>-1.553292</td>
+      <td>-136.0</td>
+      <td>49.0</td>
+      <td>2020-02-24 19:12:21.027</td>
+      <td>2020-02-24</td>
+      <td>0.114089</td>
+      <td>-0.276111</td>
     </tr>
   </tbody>
 </table>
